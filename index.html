@@ -1,39 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Saif Artography</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Navbar -->
+
     <nav>
-        <h2>Saif Artography</h2>
+        <div class="logo">Saif Artography</div>
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Orders</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="hero">
+    <!-- Hero Section -->
 
-        <h1>Saif Artography</h1>
+    <section class="hero" id="home">
 
-        <p>
-            Handmade Islamic Calligraphy & Custom Artwork
-        </p>
+        <div class="hero-content">
 
-        <a href="#">Order On WhatsApp</a>
+            <h1>Saif Artography</h1>
+
+            <p>
+                Handmade Islamic Calligraphy &
+                Custom Artwork
+            </p>
+
+            <div class="buttons">
+
+                <a href="https://wa.me/919942898834" class="btn">
+                    Order On WhatsApp
+                </a>
+
+                <a href="#gallery" class="btn2">
+                    View Gallery
+                </a>
+
+            </div>
+
+        </div>
 
     </section>
 
+    <!-- Gallery -->
+
+    <section class="gallery" id="gallery">
+
+        <h2>Featured Artwork</h2>
+
+        <div class="gallery-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600" alt="">
+                <h3>Allah Loves Those Who Trust Him</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600" alt="">
+                <h3>Quranic Verse Artwork</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600" alt="">
+                <h3>Arabic Calligraphy</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Assalamu Alaikum 🤍
+
+            I'm Saif Husain, a passionate calligraphy artist creating handmade Islamic artwork inspired by Quranic verses, faith and creativity.
+
+            Every artwork is crafted with patience, dedication and love.
+        </p>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+
+        <h2>Custom Orders Open</h2>
+
+        <p>
+            Looking for personalized Islamic artwork?
+            Contact me today.
+        </p>
+
+        <a href="https://wa.me/919942898834" class="contact-btn">
+            Place Order
+        </a>
+
+        <p class="insta">
+            Instagram : @saif.artography
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        © 2025 Saif Artography | Handmade Islamic Calligraphy
+    </footer>
+
 </body>
+
 </html>
